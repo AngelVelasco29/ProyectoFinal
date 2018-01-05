@@ -69,6 +69,33 @@
           </tbody>
         </table>
       </article>
+      <article>
+        <form name="AgregarEstudios" autocomplete="on">
+          <fieldset>
+            <legend>Agregar Estudios</legend>
+            <p>
+            <label for="Ano"><strong>Año: </strong></label>
+            <input type="number" min="1900" max="2018" maxlength="4" value="2018" required>
+            </p>
+            <p>
+            <label for="Institucion"><strong>Institución: </strong></label>
+            <input type="text" placeholder="Tecnologico" required>
+            </p>
+            <p>
+            <label for="Lugar"><strong>Lugar: </strong></label>
+            <textarea  rows="2" cols="40" required></textarea>
+            </p>
+            <p>
+              <label for=""><strong>¿Culminó?</strong></label>
+              <input type="radio" name="culmino" required>Sí
+              <input type="radio" name="culmino" required>No
+            </p>
+            <p>
+              <input type="submit">
+            </p>
+          </fieldset>
+        </form>
+      </article>
     </section>
   </body>
 </html>
